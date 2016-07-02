@@ -8,16 +8,27 @@ class FibonacciError(EulerError):
   """Base class for exceptions in Fibonacci module."""
   pass
 
+FIBONACCI_CACHE = {}
+
 def fibonacci_number(n):
   """Returns N-th Fibonacci number.
   
   For instance, fibonacci_numbers(5) -> 8
   """
+  # Lookup Nth Fibonacci number in cache table
+  if n in FIBONACCI_CACHE:
+    return FIBONACCI_CACHE[n]
+
   if n < 1:
     raise FibonacciError('Fibonacci numbers are defined for natural numbers only.')
   elif n == 1 or n == 2:
-    return n
-  return fibonacci_number(n - 1) + fibonacci_number(n - 2)
+    fib = n
+  else:
+    fib = fibonacci_number(n - 1) + fibonacci_number(n - 2)
+
+  # Cache Nth Fibonacci number in lookup table
+  FIBONACCI_CACHE[n] = fib
+  return fib
 
 def fibonacci_numbers_below(high_watermark):
   """Returns list of all Fibonacci numbers under given number.
