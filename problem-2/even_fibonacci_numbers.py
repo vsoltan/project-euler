@@ -36,7 +36,7 @@ def fibonacci_numbers_below(high_watermark):
 def sum_of_even_fibonacci_numbers_below(high_watermark):
   """Returns list of all Fibonacci numbers under given number.
   
-  For instance, fibonacci_numbers_below(10) -> [1, 2, 3, 5, 8]
+  For instance, sum_of_even_fibonacci_numbers_below(10) -> sum([2, 8]) -> 10.
   """
   fib_nums = fibonacci_numbers_below(high_watermark)
   return sum([x for x in fib_nums if x % 2 == 0])
