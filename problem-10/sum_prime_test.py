@@ -44,14 +44,6 @@ class TestStringMethods(unittest.TestCase):
   def test_prime_sum_under_10000(self):
     self.assertEqual(142913828922, generatePrimeSumUnder(2000000))
   
-
-    
-    
-
-  
-    
-
-  
 if __name__ == '__main__':
   unittest.main()
 
