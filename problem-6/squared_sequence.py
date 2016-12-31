@@ -6,9 +6,5 @@ def squaredSequence(x):
   return(sum(squaredSum))
   
 def squareofSum(x):
-  seriesSum = list()
-  for i in range(1, x + 1):
-    seriesSum.append(i)
-  summation = sum(seriesSum)
-  return(summation**2)
-
+  return((x*(x+1)/2)**2)
+  
