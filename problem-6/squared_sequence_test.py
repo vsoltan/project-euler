@@ -54,11 +54,6 @@ class TestStringMethods(unittest.TestCase):
     
   def test_square_of_Sum_1000(self):
     self.assertEqual(250500250000, squareofSum(1000))
-    
-  
-    
-  
-    
-  
+     
 if __name__ == '__main__':
     unittest.main()
