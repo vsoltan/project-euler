@@ -2,33 +2,26 @@
 
 def num_paths(n):
   """Compute number of paths for lattice NxN"""
-  # all_paths = []
-  # all_paths = [0]
   return r_num_paths(n, 0, 0, [])
-  # return all_paths[0]
 
 RIGHT = 'x'
 DOWN = 'y'
 
 CACHE = {}
+CACHE_HITS = [0]
 
 def r_num_paths(n, x, y, path):
   """Compute number of paths for lattice NxN starting from point (x, y)"""
-  # print "Lattice {2}x{2}; Position (x={0}, y={1})".format(x, y, n)
-  # print "Current path: {0}".format(''.join(path))
   
-  # cache_key = "n{0}_x{1}_y{2}".format(n, x, y)
-  # if cache_key in CACHE:
-  #   paths += CACHE[cache_key]
-  #   return
+  cache_key = "n{0}_x{1}_y{2}".format(n, x, y)
+  if cache_key in CACHE:
+    CACHE_HITS[0] += 1
+    # print "Cache hit: {0} -> {1}".format(cache_key, CACHE[cache_key])
+    return CACHE[cache_key]
 
   # We have reached bottom-right corner: add current path to the list of paths
   # and return
   if x == n and y == n:
-    # paths.append(''.join(path))
-    # paths[0] += 1
-    # print "All paths: {0}".format('\n'.join(paths))
-    # print '.',
     return 1
 
   n_paths = 0
@@ -39,11 +32,12 @@ def r_num_paths(n, x, y, path):
   if y < n:
     n_paths += r_num_paths(n, x, y + 1, path[:]+[DOWN])
 
+  # Cache number of paths from point (x, y)
+  # print "Path computed: {0} -> {1}".format(cache_key, n_paths)
+  CACHE[cache_key] = n_paths
   return n_paths
 
 if __name__ == '__main__':
-  # all_paths = [0]
-  # all_paths = []
-  x = r_num_paths(10, 0, 0, [])
-  # print "Solution:\n{0}, size: {1}".format('\n'.join(all_paths), len(all_paths))
-  print "Solution: {0}".format(x)
+  n = 20
+  print "Solution: {0}".format(r_num_paths(n, 0, 0, []))
+  print "Cache hits: {0}".format(CACHE_HITS[0])
