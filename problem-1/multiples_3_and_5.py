@@ -32,5 +32,5 @@ def sum_of_multiples_of_3_and_5_below(below):
   return sum(multiples_of_3_and_5_below(below))
 
 if __name__ == '__main__':
-  print 'Sum of all the multiples of 3 or 5 below 1000: {}'.format(
-      sum_of_multiples_of_3_and_5_below(1000))
+  print ('Sum of all the multiples of 3 or 5 below 1000: {}'.format(
+      sum_of_multiples_of_3_and_5_below(1000)))
