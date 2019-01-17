@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 def generate_all_multiples_of(below, base):
-    """Returns all mutiples of 'base' below given number.
+    """Returns all multiples of 'base' below given number.
 
     For instance, generate_all_multiples_of(10, 3) -> [3, 6, 9]
     """
@@ -14,7 +14,7 @@ def generate_all_multiples_of(below, base):
 
 
 def multiples_of_3_and_5_below(below):
-    """Returns all mutiples of 3 and 5 below given number.
+    """Returns all multiples of 3 and 5 below given number.
 
     For instance, multiples_of_3_and_5_below(10) -> [3, 5, 6, 9]
     """
@@ -27,7 +27,7 @@ def multiples_of_3_and_5_below(below):
 
 
 def sum_of_multiples_of_3_and_5_below(below):
-    """Returns sum of all mutiples of 3 and 5 below given number.
+    """Returns sum of all multiples of 3 and 5 below given number.
 
     For instance, sum_of_multiples_of_3_and_5_below(10) -> sum([3, 5, 6, 9]) -> 23
     """

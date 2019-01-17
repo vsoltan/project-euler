@@ -1,7 +1,7 @@
 import math
 
 
-def isPrime(num):
+def is_prime(num):
     if num == 2 or num == 3:
         return True
     if num % 2 == 0 or num < 2:
@@ -12,13 +12,16 @@ def isPrime(num):
     return True
 
 
-def generatePrimeSumUnder(num):
-    primeSum = 0
+def generate_prime_sum_under(num):
+    prime_sum = 0
     for i in range(1, num):
-        if (isPrime(i) == True):
-            primeSum += i
-            print(primeSum)
+        if is_prime(i) is True:
+            prime_sum += i
+            print('...')
         else:
             pass
 
-    return primeSum
+    return prime_sum
+
+if __name__ == '__main__':
+    print("sum of all primes below two million", generate_prime_sum_under(2000000))

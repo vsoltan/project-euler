@@ -56,6 +56,7 @@ public class EvenlyDivisible {
 	}
 
 	public static void main(String args[]) {
-		System.out.println(minDivisorOf1ToN(20));
+		System.out.println("smallest positive number that is evenly divisible by all of the numbers from 1 to 20: "
+				+ minDivisorOf1ToN(20));
 	}
 }

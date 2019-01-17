@@ -61,6 +61,5 @@ def sum_of_even_fibonacci_numbers_below(high_watermark):
 
 if __name__ == '__main__':
     high_watermark = 4000000
-    print
-    'Sum of Fibonacci numbers under {}: {}'.format(
-        high_watermark, sum_of_even_fibonacci_numbers_below(high_watermark))
+    print('Sum of Fibonacci numbers under {}: {}'.format(
+        high_watermark, sum_of_even_fibonacci_numbers_below(high_watermark)))
