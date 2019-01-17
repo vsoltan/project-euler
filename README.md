@@ -8,6 +8,7 @@
 - problem 5 [smallest multiple](https://projecteuler.net/problem=5)
 - problem 6 [sum square difference](https://projecteuler.net/problem=6)
 - problem 7 [10001st prime](https://projecteuler.net/problem=7)
+- problem 8 [largest product in a series](https://projecteuler.net/problem=8)
 - problem 9 [special pythagorean triplet](https://projecteuler.net/problem=9)
 - problem 10 [summation of primes](https://projecteuler.net/problem=10)
 - problem 15 [lattice paths](https://projecteuler.net/problem=15)
