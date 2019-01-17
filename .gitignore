@@ -93,3 +93,5 @@ ENV/
 
 # MacOSX display files
 .DS_Store
+/.metadata/
+/.recommenders/
