@@ -2,8 +2,62 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98a95822-f7a3-4c9f-9de6-21345a75154e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/problem-3/largest_prime_factor.py" beforeDir="false" afterPath="$PROJECT_DIR$/problem-3/largest_prime_factor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problem-3/largest_prime_factor_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/problem-3/largest_prime_factor_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems [1-10]/money/money.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems [1-10]/problem-1/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems [1-10]/problem-1/multiples_3_and_5.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems [1-10]/problem-1/multiples_3_and_5_brute.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems [1-10]/problem-1/multiples_3_and_5_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems [1-10]/problem-10/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems [1-10]/problem-10/sum_prime.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems [1-10]/problem-10/sum_prime_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems [1-10]/problem-2/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems [1-10]/problem-2/even_fibonacci_numbers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems [1-10]/problem-2/even_fibonacci_numbers_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems [1-10]/problem-3/largest_prime_factor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems [1-10]/problem-3/largest_prime_factor_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems [1-10]/problem-4/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems [1-10]/problem-4/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems [1-10]/problem-4/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems [1-10]/problem-4/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems [1-10]/problem-4/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems [1-10]/problem-4/src/Palindromic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems [1-10]/problem-4/test/PalindromicTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems [1-10]/problem-5/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems [1-10]/problem-5/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems [1-10]/problem-5/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems [1-10]/problem-5/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems [1-10]/problem-5/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems [1-10]/problem-5/src/EvenlyDivisible.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems [1-10]/problem-5/test/EvenlyDivisibleTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems [1-10]/problem-6/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems [1-10]/problem-6/squared_sequence.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems [1-10]/problem-6/squared_sequence_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems [1-10]/problem-7/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems [1-10]/problem-7/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems [1-10]/problem-7/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems [1-10]/problem-7/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems [1-10]/problem-7/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems [1-10]/problem-7/src/NthPrime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems [1-10]/problem-7/test/NthPrimeTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems [1-10]/problem-8/.idea/dictionaries/vsoltan.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems [1-10]/problem-8/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems [1-10]/problem-8/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems [1-10]/problem-8/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems [1-10]/problem-8/.idea/preferred-vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems [1-10]/problem-8/.idea/problem-8.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems [1-10]/problem-8/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems [1-10]/problem-8/LargestProductSeries.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems [1-10]/problem-8/LargestProductSeriesTest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems [1-10]/problem-8/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems [1-10]/problem-9/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems [1-10]/problem-9/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems [1-10]/problem-9/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems [1-10]/problem-9/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems [1-10]/problem-9/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems [1-10]/problem-9/src/PythagorasTripleWithSum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems [1-10]/problem-9/test/PythagorasTripleWithSumTest.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,22 +97,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/problem-3/largest_prime_factor.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="22" column="31" lean-forward="true" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/problem-3/largest_prime_factor_test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="90">
+                <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -111,6 +156,7 @@
         <option value="$PROJECT_DIR$/problem-1/multiples_3_and_5.py" />
         <option value="$PROJECT_DIR$/problem-3/largest_prime_factor_test.py" />
         <option value="$PROJECT_DIR$/problem-3/largest_prime_factor.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -132,16 +178,6 @@
             <path>
               <item name="project-euler" type="b2602c69:ProjectViewProjectNode" />
               <item name="project-euler" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project-euler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project-euler" type="462c0819:PsiDirectoryNode" />
-              <item name="problem-2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project-euler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project-euler" type="462c0819:PsiDirectoryNode" />
-              <item name="problem-3" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -312,14 +348,11 @@
       <workItem from="1547688029433" duration="56000" />
       <workItem from="1547689336017" duration="118000" />
       <workItem from="1547752185955" duration="3382000" />
-      <workItem from="1547850521831" duration="1981000" />
+      <workItem from="1547850521831" duration="2597000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_largest_prime_factor_test_py - 2019.01.18 at 17h 43m 26s.xml">
-      <configuration name="Unittests in largest_prime_factor_test.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_largest_prime_factor_test_py - 2019.01.18 at 17h 44m 10s.xml">
       <configuration name="Unittests in largest_prime_factor_test.py" configurationId="tests" />
     </history-entry>
@@ -347,20 +380,23 @@
     <history-entry file="Unittests_for_largest_prime_factor_test_testLargestPrimeFactorTest - 2019.01.18 at 18h 02m 31s.xml">
       <configuration name="Unittests for largest_prime_factor_test.testLargestPrimeFactorTest" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_for_largest_prime_factor_test_testLargestPrimeFactorTest - 2019.01.18 at 18h 02m 54s.xml">
+      <configuration name="Unittests for largest_prime_factor_test.testLargestPrimeFactorTest" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5784000" />
+    <option name="totallyTimeSpent" value="6400000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="50" y="47" width="1295" height="783" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26815644" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26815644" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3299566" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31403762" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.31403762" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39942113" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -616,6 +652,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="321">
           <caret line="22" column="31" lean-forward="true" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="90">
+            <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
