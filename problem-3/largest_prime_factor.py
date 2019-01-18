@@ -1,3 +1,5 @@
+import math
+
 """script that finds the largest prime factor of a given number"""
 
 
@@ -7,14 +9,20 @@ def prime_factorization(num):
 
     num = abs(num)
 
+    # initializations
     largest_factor = 1
+    counter = math.sqrt(num)
 
     for i in range(2, num + 1):
-        if num is 1:  # early termination
+        if num is 1 or counter is 0:  # early termination
             break
-        while num % i is 0:
-            num = num // i
-            largest_factor = i
+        if num % i != 0:
+            continue
+        else:
+            counter = counter - 1
+            while num % i is 0:
+                num = num // i
+                largest_factor = i
 
     return largest_factor
 

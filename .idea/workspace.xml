@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98a95822-f7a3-4c9f-9de6-21345a75154e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problem-3/largest_prime_factor.py" beforeDir="false" afterPath="$PROJECT_DIR$/problem-3/largest_prime_factor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problem-3/largest_prime_factor_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/problem-3/largest_prime_factor_test.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,6 +20,7 @@
     <SUITE FILE_PATH="coverage/project_euler$Unittests_in_multiples_3_and_5_test_py.coverage" NAME="Unittests in multiples_3_and_5_test.py Coverage Results" MODIFIED="1547757214264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problem-1" />
     <SUITE FILE_PATH="coverage/project_euler$Unittests_for_power_digit_sum_test_TestStringMethods_test_get_Sum_Digits_12.coverage" NAME="Unittests for power_digit_sum_test.TestStringMethods.test_get_Sum_Digits_12 Coverage Results" MODIFIED="1546487636967" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/problem-16" />
     <SUITE FILE_PATH="coverage/project_euler$Unittests_for_sum_prime_test_TestStringMethods.coverage" NAME="Unittests for sum_prime_test.TestStringMethods Coverage Results" MODIFIED="1546487371770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/problem-10" />
+    <SUITE FILE_PATH="coverage/project_euler$Unittests_for_largest_prime_factor_test_testLargestPrimeFactorTest.coverage" NAME="Unittests for largest_prime_factor_test.testLargestPrimeFactorTest Coverage Results" MODIFIED="1547852573749" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problem-3" />
     <SUITE FILE_PATH="coverage/project_euler$Unittests_in_largest_prime_factor_test_py.coverage" NAME="Unittests in largest_prime_factor_test.py Coverage Results" MODIFIED="1547852002734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problem-3" />
     <SUITE FILE_PATH="coverage/project_euler$Unittests_for_power_digit_sum_test_TestStringMethods_test_get_Sum_Digits_1.coverage" NAME="Unittests for power_digit_sum_test.TestStringMethods.test_get_Sum_Digits_1 Coverage Results" MODIFIED="1546487658004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/problem-16" />
     <SUITE FILE_PATH="coverage/project_euler$LargestProductSeries.coverage" NAME="LargestProductSeries Coverage Results" MODIFIED="1547757907753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problem-8" />
@@ -35,37 +37,16 @@
     <SUITE FILE_PATH="coverage/project_euler$Unittests_for_circular_primes_test_TestStringMethods.coverage" NAME="Unittests for circular_primes_test.TestStringMethods Coverage Results" MODIFIED="1546488289418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/problem-35" />
     <SUITE FILE_PATH="coverage/project_euler$Unittests_for_power_digit_sum_test_TestStringMethods_test_get_Sum_Digits_7584738475938475834534853495348534.coverage" NAME="Unittests for power_digit_sum_test.TestStringMethods.test_get_Sum_Digits_7584738475938475834534853495348534 Coverage Results" MODIFIED="1546487453344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/problem-16" />
     <SUITE FILE_PATH="coverage/project_euler$squared_sequence.coverage" NAME="squared_sequence Coverage Results" MODIFIED="1547757282581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problem-6" />
-    <SUITE FILE_PATH="coverage/project_euler$largest_prime_factor.coverage" NAME="largest_prime_factor Coverage Results" MODIFIED="1547852008767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problem-3" />
+    <SUITE FILE_PATH="coverage/project_euler$largest_prime_factor.coverage" NAME="largest_prime_factor Coverage Results" MODIFIED="1547852445024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problem-3" />
     <SUITE FILE_PATH="coverage/project_euler$Unittests_for_even_fibonacci_numbers_test_TestStringMethods_test_fib_seeds_1.coverage" NAME="Unittests for even_fibonacci_numbers_test.TestStringMethods.test_fib_seeds_1 Coverage Results" MODIFIED="1546487154151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/problem-2" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/problem-2/even_fibonacci_numbers.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/problem-2/even_fibonacci_numbers_test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-              <folding>
-                <element signature="e#23#38#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/problem-3/largest_prime_factor.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="103" lean-forward="true" selection-start-line="22" selection-start-column="103" selection-end-line="22" selection-end-column="103" />
+            <state relative-caret-position="321">
+              <caret line="22" column="31" lean-forward="true" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -73,8 +54,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/problem-3/largest_prime_factor_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="24" column="55" lean-forward="true" selection-start-line="24" selection-start-column="55" selection-end-line="24" selection-end-column="55" />
+            <state relative-caret-position="345">
+              <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -134,8 +115,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="246" />
-    <option name="y" value="50" />
+    <option name="x" value="50" />
+    <option name="y" value="47" />
     <option name="width" value="1295" />
     <option name="height" value="783" />
   </component>
@@ -203,29 +184,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.largest_prime_factor">
-    <configuration name="LargestProductSeries" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="project-euler" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/problem-8" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/problem-8/LargestProductSeries.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Unittests for largest_prime_factor_test.testLargestPrimeFactorTest">
     <configuration name="even_fibonacci_numbers" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="project-euler" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -292,6 +251,21 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests for largest_prime_factor_test.testLargestPrimeFactorTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="project-euler" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/problem-3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;largest_prime_factor_test.testLargestPrimeFactorTest&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unittests in largest_prime_factor_test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="project-euler" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -308,19 +282,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.LargestProductSeries" />
       <item itemvalue="Python.sum_prime" />
       <item itemvalue="Python.even_fibonacci_numbers" />
       <item itemvalue="Python tests.Unittests in largest_prime_factor_test.py" />
       <item itemvalue="Python.largest_prime_factor" />
+      <item itemvalue="Python tests.Unittests for largest_prime_factor_test.testLargestPrimeFactorTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for largest_prime_factor_test.testLargestPrimeFactorTest" />
         <item itemvalue="Python.largest_prime_factor" />
         <item itemvalue="Python tests.Unittests in largest_prime_factor_test.py" />
         <item itemvalue="Python.even_fibonacci_numbers" />
         <item itemvalue="Python.sum_prime" />
-        <item itemvalue="Python.LargestProductSeries" />
       </list>
     </recent_temporary>
   </component>
@@ -338,23 +312,11 @@
       <workItem from="1547688029433" duration="56000" />
       <workItem from="1547689336017" duration="118000" />
       <workItem from="1547752185955" duration="3382000" />
-      <workItem from="1547850521831" duration="1456000" />
+      <workItem from="1547850521831" duration="1981000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_largest_prime_factor_test_py - 2019.01.18 at 17h 39m 51s.xml">
-      <configuration name="Unittests in largest_prime_factor_test.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_largest_prime_factor_test_py - 2019.01.18 at 17h 40m 34s.xml">
-      <configuration name="Unittests in largest_prime_factor_test.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_largest_prime_factor_test_py - 2019.01.18 at 17h 42m 00s.xml">
-      <configuration name="Unittests in largest_prime_factor_test.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_largest_prime_factor_test_py - 2019.01.18 at 17h 43m 07s.xml">
-      <configuration name="Unittests in largest_prime_factor_test.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_largest_prime_factor_test_py - 2019.01.18 at 17h 43m 26s.xml">
       <configuration name="Unittests in largest_prime_factor_test.py" configurationId="tests" />
     </history-entry>
@@ -373,12 +335,24 @@
     <history-entry file="Unittests_in_largest_prime_factor_test_py - 2019.01.18 at 17h 47m 39s.xml">
       <configuration name="Unittests in largest_prime_factor_test.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_in_largest_prime_factor_test_py - 2019.01.18 at 17h 53m 23s.xml">
+      <configuration name="Unittests in largest_prime_factor_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_largest_prime_factor_test_testLargestPrimeFactorTest - 2019.01.18 at 18h 00m 50s.xml">
+      <configuration name="Unittests for largest_prime_factor_test.testLargestPrimeFactorTest" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_largest_prime_factor_test_testLargestPrimeFactorTest - 2019.01.18 at 18h 01m 02s.xml">
+      <configuration name="Unittests for largest_prime_factor_test.testLargestPrimeFactorTest" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_largest_prime_factor_test_testLargestPrimeFactorTest - 2019.01.18 at 18h 02m 31s.xml">
+      <configuration name="Unittests for largest_prime_factor_test.testLargestPrimeFactorTest" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5259000" />
+    <option name="totallyTimeSpent" value="5784000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="247" y="50" width="1295" height="783" extended-state="0" />
+    <frame x="50" y="47" width="1295" height="783" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26815644" />
@@ -614,6 +588,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/problem-2/even_fibonacci_numbers_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/problem-2/even_fibonacci_numbers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
@@ -621,20 +602,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/problem-2/even_fibonacci_numbers_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#23#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/problem-3/largest_prime_factor_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="24" column="55" lean-forward="true" selection-start-line="24" selection-start-column="55" selection-end-line="24" selection-end-column="55" />
+        <state relative-caret-position="345">
+          <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -643,8 +614,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/problem-3/largest_prime_factor.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="103" lean-forward="true" selection-start-line="22" selection-start-column="103" selection-end-line="22" selection-end-column="103" />
+        <state relative-caret-position="321">
+          <caret line="22" column="31" lean-forward="true" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
         </state>
       </provider>
     </entry>
